@@ -83,12 +83,10 @@ var doWhatItSays = function(){
         
         var dataArr = data.split(",")
 
-        // call appropriate function and pass arguement
         runAction(dataArr[0], dataArr[1])
     });
 }
 
-// This function will handle outputting to the console and writing to log file
 var outputData = function(data) {
     console.log(data)
 
